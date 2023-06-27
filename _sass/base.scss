@@ -10,6 +10,10 @@ body {
 
 h1 {
   font-size: 80px;
+
+  @media screen and (max-width: 700px) {
+    font-size: 50px;
+  }
 }
 
 .resources {
@@ -22,8 +26,11 @@ h1 {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 700px) {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
