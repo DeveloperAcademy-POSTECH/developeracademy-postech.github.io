@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body class="resources">
+    <h1>Resources</h1>
+    <div class="technologies">
+      <div class="technology">
+        <p class="title">ActivityKit</p>
+        <div class="versions">
+          <p class="version">iOS 16.1+</p>
+          <p class="version">iPadOS 16.1+</p>
+          <p class="version">Mac Catalyst 16.1+</p>
+        </div>
+        <p class="description">
+          Share live updates from your app as Live Activities in the Dynamic Island and on the Lock Screen.<br/>
+        </p>
+        <p class="keyword">
+          위젯, 라이브액티비티
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/ActivityKit">🔗 developer.apple.com</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/live-activities">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10184/">📼 WWDC23: Meet ActivityKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10194/">📼 WWDC23: Design dynamic Live Activities</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">App Clips</p>
+        <div class="versions">
+          <p class="version">iOS 14.0+</p>
+          <p class="version">iPadOS 14.0+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+        </div>
+        <p class="description">
+          Provide users a shortcut to selected content and features of your app.
+        </p>
+        <p class="keyword">
+          앱을 설치하지 않고, QR코드 인식만으로 실행가능한 앱. 로그인, ApplePay 모두 가능.<br/>그래도 AppStore 심사는 필수.
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/kr/app-clips/">🔗 App Clips 소개</a></p>
+          <p><a href="https://developer.apple.com/documentation/app_clips">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/app-clips">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10097/">📼 WWDC22: What's new in App Clips</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">App Intents</p>
+        <div class="versions">
+          <p class="version">iOS 16.0+</p>
+          <p class="version">iPadOS 16.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 16.0+</p>
+          <p class="version">tvOS 16.0+</p>
+          <p class="version">watchOS 9.0+</p>
+        </div>
+        <p class="description">
+          Extend your app’s custom functionality to support system-level services like Siri and the Shortcuts app.
+        </p>
+        <p class="keyword">
+          시리, 단축어 앱 등의 기능을 활용하기 위해서는 이 Framework가 필요할 수 있습니다.
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/AppIntents">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/siri#System-intents">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10032">📼 WWDC22: Dive into App Intents</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Apple Music API</p>
+        <p class="description">
+          Integrate streaming music with catalog and personal content.
+        </p>
+        <p class="keyword">
+          Apple Music에 있는 아티스트, 앨범, 플레이리스트 등의 정보를 가져올 수 있는 API
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/applemusicapi">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">ARKit</p>
+        <div class="versions">
+          <p class="version">iOS 11.0+</p>
+          <p class="version">iPadOS 11.0+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+        </div>
+        <p class="description">
+          Integrate iOS device camera and motion features to produce augmented reality experiences in your app or game.
+        </p>
+        <p class="keyword">
+          Judy의 관련 문화센터가 있어요.
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/arkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/augmented-reality">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10126/">📼 WWDC22: Discover ARKit 6</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">AVFAudio</p>
+        <div class="versions">
+          <p class="version">iOS 14.5+</p>
+          <p class="version">iPadOS 14.5+</p>
+          <p class="version">macOS 11.3+</p>
+          <p class="version">Mac Catalyst 14.5+</p>
+          <p class="version">tvOS 14.5+</p>
+          <p class="version">watchOS 9.0+</p>
+        </div>
+        <p class="description">
+          Play, record, and process audio; configure your app’s system audio behavior.
+        </p>
+        <p class="keyword">
+          음악과 관련된 리소스들이 모인 Framework.<br/>공간음향 관련 코드도 여기에 있어요.
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/avfaudio">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/playing-audio">🔗 Human Interface Guideline</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">AVFoundation</p>
+        <div class="versions">
+          <p class="version">iOS 2.2+</p>
+          <p class="version">iPadOS 2.2+</p>
+          <p class="version">macOS 10.7+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 3.0+</p>
+        </div>
+        <p class="description">
+          Work with audiovisual assets, control device cameras, process audio, and configure system audio interactions.
+        </p>
+        <p class="keyword">
+          음악, 영상(비디오)의 기반이되는 리소스는 여기에 모여있어요
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/avfoundation">🔗 Developer Document</a></p>
+          <p><a href="">📼 WWDC21: https://developer.apple.com/videos/play/wwdc2022/110379/</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">AVKit</p>
+        <div class="versions">
+          <p class="version">iOS 8.0+</p>
+          <p class="version">iPadOS 8.0+</p>
+          <p class="version">macOS 10.9+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 9.0+</p>
+        </div>
+        <p class="description">
+          Create user interfaces for media playback, complete with transport controls, chapter navigation, picture-in-picture support, and display of subtitles and closed captions.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/avkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/playing-video">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10290/">📼 WWDC21: What's new in AVKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">CallKit</p>
+        <div class="versions">
+          <p class="version">iOS 10.0+</p>
+          <p class="version">iPadOS 10.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">watchOS 9.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Display the system-calling UI for your app’s VoIP services, and coordinate your calling services with other apps and the system.
+        </p>
+        <p class="keyword">
+          카카오톡의 보이스톡, Zoom 등에서의 전화와 같은 인터페이스, 기능을 구현할 때 이 Framework를 사용합니다.
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/callkit">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">CareKit</p>
+        <div class="versions">
+          <p class="version">iOS 13.0+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">watchOS 7.0+</p>
+        </div>
+        <p class="description">
+          Create apps that help people better understand and manage their health.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://carekit-apple.github.io/CareKit/documentation/carekit/">🔗 Developer Document</a></p>
+          <p><a href="https://github.com/carekit-apple/CareKit">🔗 GitHub</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/217/">📼 WWDC2019: ResearchKit and CareKit Reimagined</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/218">📼 WWDC2019: Exploring New Data Representations in HealthKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">CarKey</p>
+        <div class="versions">
+          <p class="version">iOS 16.0+</p>
+          <p class="version">iPadOS 16.0+</p>
+          <p class="version">Mac Catalyst 16.0+</p>
+        </div>
+        <p class="description">
+          Access the remote keyless features of configured vehicles in the Wallet app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/CarKey">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/documentation/CarKey">📼 WWDC: Introducing Car Keys</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">CarPlay</p>
+        <div class="versions">
+          <p class="version">iOS 12.0+</p>
+          <p class="version">iPadOS 12.0+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+        </div>
+        <p class="description">
+          Integrate CarPlay in apps related to audio, communication, navigation, parking, EV charging, food ordering, and more.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/carplay">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/documentation/cinematic">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/carplay">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2017/719">📼 WWDC17: Enabling Your App for CarPlay</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10016">📼 WWDC19: Get more mileage out of your app with CarPlay</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10635/">📼 WWDC20: Accelerate your app with CarPlay</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Cinematic</p>
+        <div class="versions">
+          <p class="version">iOS 17.0+</p>
+          <p class="version">iPadOS 17.0+</p>
+          <p class="version">macOS 14.0+</p>
+          <p class="version">Mac Catalyst 17.0+</p>
+          <p class="version">tvOS 17.0+</p>
+        </div>
+        <p class="description">
+          Integrate playback and editing of assets captured in Cinematic mode into your app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/cinematic">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10137/">📼 WWDC23: Support Cinematic mode videos in your app</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">ClassKit</p>
+        <div class="versions">
+          <p class="version">iOS 11.4+</p>
+          <p class="version">iPadOS 11.4+</p>
+          <p class="version">macOS 11.0+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Enable teachers to assign activities from your app’s content and to view student progress.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/classkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/247/">📼 WWDC19: What’s New in ClassKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10672/">📼 WWD20: What’s New in ClassKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">CloudKit</p>
+        <div class="versions">
+          <p class="version">iOS 8.0+</p>
+          <p class="version">iPadOS 8.0+</p>
+          <p class="version">macOS 10.0+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 3.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Store structured app and user data in iCloud containers that all users of your app can share.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/cloudkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/icloud">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/202/">📼 WWDC19: Using Core Data With CloudKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10117/">📼 WWDC21: Meet CloudKit Console</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10015/">📼 WWDC21: Build apps that share data through CloudKit and Core Data</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10119/">📼 WWDC22: Optimize your use of Core Data and CloudKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/tech-talks/10874/">📼 Tech talk: Get the most out of CloudKit Sharing</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Contacts</p>
+        <div class="versions">
+          <p class="version">iOS 9.0+</p>
+          <p class="version">iPadOS 9.0+</p>
+          <p class="version">macOS 10.11+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">watchOS 2.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Access the user's contacts, and format and localize contact information.
+        </p>
+        <p class="keyword">
+          기기에 저장된 연락처 데이터에 접근 가능해주게하는 프레임워크
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/contacts">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Core Animation</p>
+        <div class="versions">
+          <p class="version">iOS 2.0+</p>
+          <p class="version">iPadOS 2.0+</p>
+          <p class="version">macOS 10.3+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 1.0+</p>
+        </div>
+        <p class="description">
+          Render, compose, and animate visual elements.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/quartzcore">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004514">🔗 Core Animation Programming Guide</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/motion">🔗 Human Interface Guideline</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Core Bluetooth</p>
+        <div class="versions">
+          <p class="version">iOS 5.0+</p>
+          <p class="version">iPadOS 5.0+</p>
+          <p class="version">macOS 10.10+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 4.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Communicate with Bluetooth low energy and BR/EDR (“Classic”) Devices.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/corebluetooth">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/901/">📼 WWDC19: What's New in Core Bluetooth</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10005/">📼 WWDC21: Connect Bluetooth devices to Apple Watch</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Core Data</p>
+        <div class="versions">
+          <p class="version">iOS 3.0+</p>
+          <p class="version">iPadOS 3.0+</p>
+          <p class="version">macOS 10.4+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 2.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Persist or cache data on a single device, or sync data to multiple devices with CloudKit.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/coredata">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/230/">📼 WWDC19: Making Apps with Core Data</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10017/">📼 WWDC20: Core Data: Sundries and maxims</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10017/">📼 WWDC21: Bring Core Data concurrency to Swift and SwiftUI</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Core Haptics</p>
+        <div class="versions">
+          <p class="version">iOS 13.0+</p>
+          <p class="version">iPadOS 13.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Compose and play haptic patterns to customize your iOS app’s haptic feedback.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/corehaptics">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/playing-haptics">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/520/">📼 WWDC19: Introducing Core Haptics</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/223/">📼 WWDC19: Expanding the Sensory Experience with Core Haptics</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/810/">📼 WWDC19: Designing Audio-Haptic Experiences</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10278/">📼 WWDC21: Practice audio haptic design</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Core Image</p>
+        <div class="versions">
+          <p class="version">iOS 5.0+</p>
+          <p class="version">iPadOS 5.0+</p>
+          <p class="version">macOS 10.11+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Use built-in or custom filters to process still and video images.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/coreimage">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/index.html#//apple_ref/doc/uid/TP40004346">🔗 Core Image Filter Reference</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Core Location</p>
+        <div class="versions">
+          <p class="version">iOS 2.0+</p>
+          <p class="version">iPadOS 2.0+</p>
+          <p class="version">macOS 10.6+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 2.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Obtain the geographic location and orientation of a device.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/corelocation">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/705/">📼 WWDC19: What's new in location</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10660/">📼 WWDC20: What's new in location</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Core ML</p>
+        <div class="versions">
+          <p class="version">iOS 11.0+</p>
+          <p class="version">iPadOS 11.0+</p>
+          <p class="version">macOS 10.13+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 11.0+</p>
+          <p class="version">watchOS 4.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Integrate machine learning models into your app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/coreml">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/machine-learning">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/209/">📼 WWDC19: What's New in Machine Learning</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/228/">📼 WWDC19: Creating Great Apps Using Core ML and ARKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10152/">📼 WWDC20: Use model deployment and security with Core ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10153/">📼 WWDC20: Get models on device using Core ML Converters</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10038/">📼 WWDC21: Tune your Core ML models</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10027/">📼 WWDC22: Optimize your Core ML usage</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10047/">📼 WWDC23: Use Core ML Tools for machine learning model compression</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Core Motion</p>
+        <div class="versions">
+          <p class="version">iOS 4.0+</p>
+          <p class="version">iPadOS 4.0+</p>
+          <p class="version">macOS 10.15+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">watchOS 2.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Process accelerometer, gyroscope, pedometer, and environment-related events.
+        </p>
+        <p class="keyword">
+          가속도, 중력 등의 수치를 활용하고 싶다면 이것을 주목!
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/coremotion">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2015/705/">📼 WWDC15: What's New in Core Motion</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10179/">📼 WWDC23: What’s new in Core Motion</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Core NFC</p>
+        <div class="versions">
+          <p class="version">iOS 1.0+</p>
+          <p class="version">iPadOS 1.0+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+        </div>
+        <p class="description">
+          Detect NFC tags, read messages that contain NDEF data, and save data to writable tags.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/corenfc">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/nfc">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2017/718/">📼 WWDC17: Introducing Core NFC</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/715/">📼 WWDC19: Core NFC Enhancements</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10209/">📼 WWDC20: What's new in Core NFC</a></p>
+          <p><a href="https://developer.apple.com/videos/play/tech-talks/702/">📼 Tech talk: What's New in Core NFC</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Core Video</p>
+        <div class="versions">
+          <p class="version">iOS 4.0+</p>
+          <p class="version">iPadOS 4.0+</p>
+          <p class="version">macOS 10.4+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 4.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Process digital video, including manipulation of individual frames, using a pipeline-based API and support for both Metal and OpenGL.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/corevideo">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Create ML</p>
+        <div class="versions">
+          <p class="version">iOS 15.0+</p>
+          <p class="version">iPadOS 15.0+</p>
+          <p class="version">macOS 10.14+</p>
+          <p class="version">Mac Catalyst 15.0+</p>
+          <p class="version">tvOS 16.0+</p>
+        </div>
+        <p class="description">
+          Create machine learning models for use in your app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/CreateML">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/machine-learning">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/430/">📼 WWDC19: Introducing the Create ML App</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/424/">📼 WWDC19: Training Object Detection Models in Create ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/425/">📼 WWDC19: Training Sound Classification Models in Create ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/427/">📼 WWDC19: Training Recommendation Models in Create ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/426/">📼 WWDC19: Building Activity Classification Models in Create ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/428/">📼 WWDC19: Training Text Classifiers in Create ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10043/">📼 WWDC20: Build an Action Classifier with Create ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10642/">📼 WWDC20: Build Image and Video Style Transfer models in Create ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10156/">📼 WWDC20: Control training in Create ML with Swift</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10037/">📼 WWDC21: Build dynamic iOS apps with the Create ML framework</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10039/">📼 WWDC21: Classify hand poses and actions with Create ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10019/">📼 WWDC22: Get to know Create ML Components</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10044/">📼 WWDC23: Discover machine learning enhancements in Create ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/tech-talks/10155/">📼 Tech talk: Improve Object Detection models in Create ML</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">DockKit</p>
+        <div class="versions">
+          <p class="version">iOS 17.0+</p>
+          <p class="version">iPadOS 17.0+</p>
+          <p class="version">Mac Catalyst 17.0+</p>
+        </div>
+        <p class="description">
+          Interact with accessories that track subjects on camera as they move around.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/DockKit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10304/">📼 WWDC23: Integrate with motorized iPhone stands using DockKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">EventKit</p>
+        <div class="versions">
+          <p class="version">iOS 4.0+</p>
+          <p class="version">iPadOS 4.0+</p>
+          <p class="version">macOS 10.8+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">watchOS 2.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Create, view, and edit calendar and reminder events.
+        </p>
+        <p class="keyword">
+          캘린더의 일정, 달력 등의 관련된 데이터를 활용할 수 있는 프레임워크
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/eventkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10052/">📼 WWDC23: Discover Calendar and EventKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">ExtensionKit</p>
+        <div class="versions">
+          <p class="version">iOS 16.1+</p>
+          <p class="version">iPadOS 16.1+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 16.0+</p>
+          <p class="version">watchOS 10.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Create executable bundles to extend the functionality of other apps by presenting a user interface.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/extensionkit">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">FamilyControls</p>
+        <div class="versions">
+          <p class="version">iOS 15.0+</p>
+          <p class="version">iPadOS 15.0+</p>
+          <p class="version">Mac Catalyst 15.0+</p>
+        </div>
+        <p class="description">
+          Authorize your app to provide parental controls on a child’s device.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/FamilyControls">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">GameKit</p>
+        <div class="versions">
+          <p class="version">iOS 3.0+</p>
+          <p class="version">iPadOS 3.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 10.8+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 3.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Enable players to interact with friends, compare leaderboard ranks, earn achievements, and participate in multiplayer games.
+        </p>
+        <p class="keyword">
+          GameKit으로 GameCenter를 활용하면 서버없이 2명 이상이 함께 접속해서 게임을 진행하는 게임 구현이 가능합니다.
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/game-center/">🔗 Game Center 소개</a></p>
+          <p><a href="https://developer.apple.com/documentation/gamekit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/game-center">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10145/">📼 WWDC20: Design for Game Center</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10618/">📼 WWDC20: Tap into Game Center: Dashboard, Access Point, and Profile</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10066/">📼 WWDC21: What’s new in Game Center: Widgets, friends, and multiplayer improvements</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">GameplayKit</p>
+        <div class="versions">
+          <p class="version">iOS 9.0+</p>
+          <p class="version">iPadOS 9.0+</p>
+          <p class="version">macOS 10.11+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Architect and organize your game logic. Incorporate common gameplay behaviors such as random number generation, artificial intelligence, pathfinding, and agent behavior.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/gameplaykit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/library/archive/documentation/General/Conceptual/GameplayKit_Guide/index.html#//apple_ref/doc/uid/TP40015172">🔗 GameplayKit Programming Guide</a></p>
+          <p><a href="https://developer.apple.com/library/archive/samplecode/Boxes_GamePlayKit/Introduction/Intro.html#//apple_ref/doc/uid/TP40016459">🗄️ Sample code| Boxes: GameplayKit Entity-Component Basics</a></p>
+          <p><a href="https://developer.apple.com/library/archive/samplecode/Dispenser_GameplayKit/Introduction/Intro.html#//apple_ref/doc/uid/TP40016460">🗄️ Sample code| Dispenser: GameplayKit State Machine Basics</a></p>
+          <p><a href="https://developer.apple.com/library/archive/samplecode/Pathfinder_GameplayKit/Introduction/Intro.html#//apple_ref/doc/uid/TP40016461">🗄️ Sample code| Pathfinder: GameplayKit Pathfinding Basics</a></p>
+          <p><a href="https://developer.apple.com/library/archive/samplecode/AgentsCatalog/Introduction/Intro.html#//apple_ref/doc/uid/TP40016141">🗄️ Sample code| AgentsCatalog: Using the Agents System in GameplayKit</a></p>
+          <p><a href="https://developer.apple.com/library/archive/samplecode/FourInARow/Introduction/Intro.html#//apple_ref/doc/uid/TP40016142">🗄️ Sample code| FourInARow: Using the GameplayKit Minmax Strategist for Opponent AI</a></p>
+          <p><a href="https://developer.apple.com/library/archive/samplecode/DemoBots/Introduction/Intro.html#//apple_ref/doc/uid/TP40015179">🗄️ Sample code| DemoBots: Building a Cross Platform Game with SpriteKit and GameplayKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">GroupActivities</p>
+        <div class="versions">
+          <p class="version">iOS 15.0+</p>
+          <p class="version">iPadOS 15.0+</p>
+          <p class="version">macOS 12.0+</p>
+          <p class="version">Mac Catalyst 15.0+</p>
+          <p class="version">tvOS 15.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Create app-specific activities your users can share and experience together.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/GroupActivities">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10183/">📼 WWDC21: Meet Group Activities</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10225/">📼 WWDC21: Coordinate media experiences with Group Activities</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10184/">📼 WWDC21: Design for Group Activities</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10187/">📼 WWDC21: Build custom experiences with Group Activities</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10189/">📼 WWDC21: Coordinate media playback in Safari with Group Activities</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10139">📼 WWDC22: Make a great SharePlay experience</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">HealthKit</p>
+        <div class="versions">
+          <p class="version">iOS 8.0+</p>
+          <p class="version">iPadOS 8.0+</p>
+          <p class="version">macOS 14.0+</p>
+          <p class="version">Mac Catalyst 17.0+</p>
+          <p class="version">tvOS 2.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Access and share health and fitness data while maintaining the user’s privacy and control.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/healthkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/healthkit">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/218/">📼 WWDC19: Exploring New Data Representations in HealthKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10182/">📼 WWDC20: What's new in HealthKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10664/">📼 WWDC20: Getting started with HealthKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10656/">📼 WWDC20: Beyond counting steps</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10184/">📼 WWDC20: Synchronize health data with HealthKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10005/">📼 WWDC22: What's new in HealthKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10023/">📼 WWDC23: Build a multi-device workout app</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">HomeKit</p>
+        <div class="versions">
+          <p class="version">iOS 8.0+</p>
+          <p class="version">iPadOS 8.0+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+          <p class="version">tvOS 1.0+</p>
+          <p class="version">watchOS 2.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Configure, control, and communicate with home automation accessories.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/homekit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/homekit">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10298/">📼 WWDC21: Add support for Matter in your smart home app</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Link Presentation</p>
+        <div class="versions">
+          <p class="version">iOS 13.0+</p>
+          <p class="version">iPadOS 13.0+</p>
+          <p class="version">macOS 10.15+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 14.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Fetch, provide, and present rich links in your app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/linkpresentation">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/262/">📼 WWDC19: Embedding and Sharing Visually Rich Links</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">MailKit</p>
+        <div class="versions">
+          <p class="version">macOS 12.0+</p>
+        </div>
+        <p class="description">
+          Secure, customize, and act on email messages that users send and receive.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/mailkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10168/">📼 WWDC21: Build Mail app extensions</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">ManagedSettings</p>
+        <div class="versions">
+          <p class="version">iOS 15.0+</p>
+          <p class="version">iPadOS 15.0+</p>
+          <p class="version">Mac Catalyst 15.0+</p>
+        </div>
+        <p class="description">
+          Access and change settings with your app while maintaining user privacy and control.
+        </p>
+        <p class="keyword">
+        </p>
+      </div>
+      <div class="technology">
+        <p class="title">MapKit</p>
+        <div class="versions">
+          <p class="version">iOS 3.0+</p>
+          <p class="version">iPadOS 3.0+</p>
+          <p class="version">macOS 10.9+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.2+</p>
+          <p class="version">watchOS 2.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Display map or satellite imagery within your app, call out points of interest, and determine placemark information for map coordinates.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/mapkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009497">🔗 Location and Maps Programming Guide</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/maps">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2015/206/">📼 WWDC15: What's New in MapKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10006/">📼 WWDC22: Meet Apple Maps Server APIs</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10035/">📼 WWDC22: What's new in MapKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10043/">📼 WWDC23: Meet MapKit for SwiftUI</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Matter</p>
+        <div class="versions">
+          <p class="version">iOS 16.0+</p>
+          <p class="version">iPadOS 16.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 16.1+</p>
+          <p class="version">tvOS 16.0+</p>
+          <p class="version">watchOS 9.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Communicate with and control smart home devices from a variety of manufacturers.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/matter">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10298/">📼 WWDC21: Add support for Matter in your smart home app</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Media Accessibility</p>
+        <div class="versions">
+          <p class="version">iOS 17.0+</p>
+          <p class="version">iPadOS 17.0+</p>
+          <p class="version">macOS 10.9+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 17.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Coordinate the presentation of closed-captioned data for your app’s media files.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/mediaaccessibility?changes=latest_minor">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Media Player</p>
+        <div class="versions">
+          <p class="version">iOS 2.0+</p>
+          <p class="version">iPadOS 2.0+</p>
+          <p class="version">macOS 10.12.1+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 5.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Find and play songs, audio podcasts, audio books, and more from within your app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/mediaplayer">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/playing-video">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10191/">📼 WWDC21: Deliver a great playback experience on tvOS</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10147/">📼 WWDC22: Create a great video playback experience</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Messages</p>
+        <div class="versions">
+          <p class="version">iOS 10.0+</p>
+          <p class="version">iPadOS 10.0+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+        </div>
+        <p class="description">
+          Create app extensions that allow users to send text, stickers, media files, and interactive messages.
+        </p>
+        <p class="keyword">
+          아이메세지의 스티커팩과 아이메세지용 앱의 리소스. 움직이는 스티커팩도 만들 수 있어요!
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/messages">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/imessage/creating-stickers-with-motion/">🔗 Creating Stickers with Motion</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/imessage-apps-and-stickers">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2017/820/">📼 WWDC17: Express Yourself!</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Metal</p>
+        <div class="versions">
+          <p class="version">iOS 8.0+</p>
+          <p class="version">iPadOS 8.0+</p>
+          <p class="version">macOS 10.11+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Render advanced 3D graphics and compute data in parallel with graphics processors.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/metal">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2014/603/">📼 WWDC14: Working with Metal: Overview</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2014/604/">📼 WWDC14: Working with Metal: Fundamentals</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2014/605/">📼 WWDC14: Working with Metal: Advanced</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/601/">📼 WWDC19: Modern Rendering with Metal</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10066/">📼 WWDC22: Discover Metal 3</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10089/">📼 WWDC23: Discover Metal for immersive apps</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">MetalKit</p>
+        <div class="versions">
+          <p class="version">iOS 9.0+</p>
+          <p class="version">iPadOS 9.0+</p>
+          <p class="version">macOS 10.11+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Build Metal apps quicker and easier using a common set of utility classes.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/metalkit">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Multipeer Connectivity</p>
+        <div class="versions">
+          <p class="version">iOS 7.0+</p>
+          <p class="version">iPadOS 7.0+</p>
+          <p class="version">macOS 10.10+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 10.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Support peer-to-peer connectivity and the discovery of nearby devices.
+        </p>
+        <p class="keyword">
+          주변에 있는 애플기기와 연결하여 데이터 등을 주고받을 수 있는 프레임워크.
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/multipeerconnectivity">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">MusicKit</p>
+        <div class="versions">
+          <p class="version">iOS 15.0+</p>
+          <p class="version">iPadOS 15.0+</p>
+          <p class="version">macOS 12.0+</p>
+          <p class="version">Mac Catalyst 15.0+</p>
+          <p class="version">tvOS 15.0+</p>
+          <p class="version">watchOS 8.0+</p>
+        </div>
+        <p class="description">
+          Integrate your app with Apple Music.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/MusicKit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10294/">📼 WWDC21: Meet MusicKit for Swift</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/110347/">📼 WWDC22: Explore more content with MusicKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10148/">📼 WWDC22: Meet Apple Music API and MusicKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Natural Language</p>
+        <div class="versions">
+          <p class="version">iOS 12.0+</p>
+          <p class="version">iPadOS 12.0+</p>
+          <p class="version">macOS 10.14+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 12.0+</p>
+          <p class="version">watchOS 5.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Analyze natural language text and deduce its language-specific metadata.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/naturallanguage">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/428/">📼 WWDC19: Training Text Classifiers in Create ML</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/232/">📼 WWDC19: Advances in Natural Language Framework</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10657/">📼 WWDC20: Make apps smarter with Natural Language</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10042/">📼 WWDC23: Explore Natural Language multilingual models</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Nearby Interaction</p>
+        <div class="versions">
+          <p class="version">iOS 14.0+</p>
+          <p class="version">iPadOS 14.0+</p>
+          <p class="version">macOS 11.0+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+          <p class="version">tvOS 8.0+</p>
+        </div>
+        <p class="description">Locate and interact with nearby devices using identifiers, distance, and direction.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/nearbyinteraction">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10668/">📼 WWDC20: Meet Nearby Interaction</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10165/">📼 WWDC21: Explore Nearby Interaction with third-party accessories</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10008/">📼 WWDC22: What's new in Nearby Interaction</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">PassKit (Apple Pay and Wallet)</p>
+        <div class="versions">
+          <p class="version">iOS 6.0+</p>
+          <p class="version">iPadOS 6.0+</p>
+          <p class="version">macOS 11.0+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">watchOS 2.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Process Apple Pay payments in your app, and create and distribute passes for the Wallet app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/passkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/wallet">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10041/">📼 WWDC22: What’s new in Wallet and Apple Pay</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">PDFKit</p>
+        <div class="versions">
+          <p class="version">iOS 11.0+</p>
+          <p class="version">iPadOS 11.0+</p>
+          <p class="version">macOS 10.4+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Display and manipulate PDF documents in your apps.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/pdfkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10089/">📼 WWDC22: https://developer.apple.com/videos/play/wwdc2022/10089/</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">PencilKit</p>
+        <div class="versions">
+          <p class="version">iOS 13.0+</p>
+          <p class="version">iPadOS 13.0+</p>
+          <p class="version">macOS 10.15+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Capture touch and Apple Pencil input as a drawing, and display that content from your app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/pencilkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/apple-pencil-and-scribble">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/221/">📼 WWDC19: Introducing PencilKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10148/">📼 WWDC20: Inspect, modify, and construct PencilKit drawings</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10106/">📼 WWDC: Meet Scribble for iPad</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10107/">📼 WWDC20: What's new in PencilKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/tech-talks/804/">📼 Tech talk: Designing for iPad Pro and Apple Pencil</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">PHASE</p>
+        <div class="versions">
+          <p class="version">iOS 15.0+</p>
+          <p class="version">iPadOS 15.0+</p>
+          <p class="version">macOS 12.0+</p>
+          <p class="version">Mac Catalyst 15.0+</p>
+          <p class="version">tvOS 15.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Create dynamic audio experiences in your game or app that react to events and cues in the environment.
+        </p>
+        <p class="keyword">
+          PHASE은 Physical Audio Spatialization Engine의 약자예요.
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/phase">🔗 Developer Document</a></p>
+          <p><a href="">📼 WWDC21: https://developer.apple.com/videos/play/wwdc2021/10079/</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">PhotoKit</p>
+        <div class="versions">
+          <p class="version">iOS 8.0+</p>
+          <p class="version">iPadOS 8.0+</p>
+          <p class="version">macOS 10.11+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 10.0+</p>
+          <p class="version">watchOS 10.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Work with image and video assets that the Photos app manages, including those from iCloud Photos and Live Photos.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/photokit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10132/">📼 WWDC22: Discover PhotoKit change history</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10023/">📼 WWDC22: What's new in the Photos picker</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Preference Panes</p>
+        <div class="versions">
+          <p class="version">macOS 10.1+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+        </div>
+        <p class="description">
+          Integrate your app's custom preferences into the System Preferences app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/preferencepanes">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">ProximityReader</p>
+        <div class="versions">
+          <p class="version">iOS 15.4+</p>
+          <p class="version">iPadOS 15.4+</p>
+          <p class="version">Mac Catalyst 15.4+</p>
+        </div>
+        <p class="description">
+          Read contactless physical and digital wallet cards using your iPhone.
+        </p>
+        <p class="keyword">
+          Tap to Pay를 지원하는 프레임워크.
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/ProximityReader">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/tap-to-pay-on-iphone">🔗 Human Interface Guideline</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Push to Talk</p>
+        <div class="versions">
+          <p class="version">iOS 16.0+</p>
+          <p class="version">iPadOS 16.0+</p>
+        </div>
+        <p class="description">
+          Display the system user interface for your app’s Push to Talk services.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/pushtotalk">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10117/">📼 WWDC23: Enhance voice communication with Push to Talk</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">PushKit</p>
+        <div class="versions">
+          <p class="version">iOS 8.0+</p>
+          <p class="version">iPadOS 8.0+</p>
+          <p class="version">macOS 10.15+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 6.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Respond to push notifications related to your app’s complications, file providers, and VoIP services.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/pushkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/managing-notifications">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/notifications">🔗 Human Interface Guideline</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">QuickLook</p>
+        <div class="versions">
+          <p class="version">iOS 4.0+</p>
+          <p class="version">iPadOS 4.0+</p>
+          <p class="version">macOS 10.5+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Create previews of files to use inside your app, or perform simple edits on previews.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/quicklook">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">RealityKit</p>
+        <div class="versions">
+          <p class="version">iOS 13.0+</p>
+          <p class="version">iPadOS 13.0+</p>
+          <p class="version">macOS 10.15+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Simulate and render 3D content for use in your augmented reality apps.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/RealityKit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/augmented-reality">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/603/">📼 WWDC19: Introducing RealityKit and Reality Composer</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10612/">📼 WWDC20: What's new in RealityKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10074/">📼 WWDC21: Dive into RealityKit 2</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10075/">📼 WWDC21: Explore advanced rendering with RealityKit 2</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10128/">📼 WWDC22: Bring your world into augmented reality</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10080/">📼 WWDC23: Build spatial experiences with RealityKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10091/">📼 WWDC23: Evolve your ARKit app for spatial experiences</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10081/">📼 WWDC: Enhance your spatial computing app with RealityKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/tech-talks/609/">📼 Tech Talk: Advanced Scene Understanding in AR</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">ReplayKit</p>
+        <div class="versions">
+          <p class="version">iOS 9.0+</p>
+          <p class="version">iPadOS 9.0+</p>
+          <p class="version">macOS 11.0+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 10.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Record or stream video from the screen, and audio from the app and microphone.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/replaykit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10633/">📼 WWDC20: Capture and stream apps on the Mac with ReplayKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10101/">📼 WWDC21: Discover rolling clips with ReplayKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">RoomPlan</p>
+        <div class="versions">
+          <p class="version">iOS 16.0+</p>
+          <p class="version">iPadOS 16.0+</p>
+          <p class="version">Mac Catalyst 16.0+</p>
+        </div>
+        <p class="description">
+          Create a 3D model of a room by interactively guiding people to scan their physical environment using a device’s camera.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/RoomPlan">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10127/">📼 WWDC22: Create parametric 3D room scans with RoomPlan</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10192/">📼 WWDC23: Create parametric 3D room scans with RoomPlan</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Safari app extensions</p>
+        <p class="description">
+          Learn how Safari app extensions extend the web-browsing experience in Safari by leveraging web technologies and native code.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/safariservices/safari_app_extensions">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/720/">📼 WWDC19: What's New in Safari Extensions</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10119/">📼 WWDC23: What’s new in Safari extensions</a></p>
+          <p><a href="https://developer.apple.com/videos/play/tech-talks/110148/">📼 Tech talk: Build and deploy Safari Extensions for iOS</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Safari Services</p>
+        <div class="versions">
+          <p class="version">iOS 7.0+</p>
+          <p class="version">iPadOS 7.0+</p>
+          <p class="version">macOS 10.12+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Enable web views and services in your app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/safariservices">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">SafetyKit</p>
+        <div class="versions">
+          <p class="version">iOS 16.0+</p>
+          <p class="version">iPadOS 16.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 16.1+</p>
+          <p class="version">watchOS 9.1+</p>
+        </div>
+        <p class="description">
+          Detect and respond to car crash events in your app.
+        </p>
+        <p class="keyword">
+          SafetyKit provides Crash Detection, a feature that sends a crash event to an authorized app if a person is in a severe vehicular crash as detected by their iPhone 14, iPhone 14 Pro, Apple Watch Series 8, Apple Watch SE (2nd generation), or Apple Watch Ultra. These devices provide a feature called Emergency SOS - Call After Severe Crash.
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/safetykit">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">SceneKit</p>
+        <div class="versions">
+          <p class="version">iOS 8.0+</p>
+          <p class="version">iPadOS 8.0+</p>
+          <p class="version">macOS 10.8+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 3.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Create 3D games and add 3D content to apps using high-level scene descriptions, and easily add animations, physics simulation, particle effects, and realistic physically based rendering.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/scenekit">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Screen Saver</p>
+        <div class="versions">
+          <p class="version">macOS 10.0+</p>
+        </div>
+        <p class="description">
+          Animate screen savers, and interact with the screen saver infrastructure.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/screensaver">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Screen Time</p>
+        <div class="versions">
+          <p class="version">iOS 14.0+</p>
+          <p class="version">iPadOS 14.0+</p>
+          <p class="version">macOS 11.0+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+        </div>
+        <p class="description">
+          Share and manage web-usage data, and observe changes made by a parent or guardian.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/screentime">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10123/">📼 WWDC21: Meet the Screen Time API</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/110336/">📼 WWDC22: What's new in Screen Time API</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">ScreenCaptureKit</p>
+        <div class="versions">
+          <p class="version">macOS 12.3+</p>
+        </div>
+        <p class="description">
+          Filter and select screen content and stream it to your app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/screencapturekit">🔗 Developer Document</a></p>
+          <p><a href="">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10156/">📼 WWDC22: Meet ScreenCaptureKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10155/">📼 WWD22: Take ScreenCaptureKit to the next level</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10136/">📼 WWDC23: What’s new in ScreenCaptureKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">SensitiveContentAnalysis</p>
+        <div class="versions">
+          <p class="version">iOS 17.0+</p>
+          <p class="version">iPadOS 17.0+</p>
+          <p class="version">macOS 14.0+</p>
+          <p class="version">Mac Catalyst 17.0+</p>
+          <p class="version">watchOS 10.0+</p>
+        </div>
+        <p class="description">
+          Provide a safer experience in your app by detecting and alerting users to nudity in images and videos before displaying them onscreen.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/sensitivecontentanalysis">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">SensorKit</p>
+        <div class="versions">
+          <p class="version">iOS 14.0+</p>
+          <p class="version">iPadOS 14.0+</p>
+          <p class="version">macOS 12.3+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Retrieve data and derived metrics from sensors on an iPhone, or paired Apple Watch.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/sensorkit">🔗 Developer Document</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Shared with You</p>
+        <div class="versions">
+          <p class="version">iOS 16.0+</p>
+          <p class="version">iPadOS 16.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 16.0+</p>
+          <p class="version">tvOS 16.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Surface shared content and collaborate in your app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/sharedwithyou">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10094/">📼 WWDC22: Add Shared with You to your app</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">ShazamKit</p>
+        <div class="versions">
+          <p class="version">iOS 15.0+</p>
+          <p class="version">iPadOS 15.0+</p>
+          <p class="version">macOS 12.0+</p>
+          <p class="version">Mac Catalyst 15.0+</p>
+          <p class="version">tvOS 15.0+</p>
+          <p class="version">watchOS 8.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Find information about a specific audio recording when a segment of it is part of captured sound in the Shazam catalog or your custom catalog.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/shazamkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/shazamkit">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10045/">📼 WWDC21: Create custom audio experiences with ShazamKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2021/10044/">📼 WWDC21: Explore ShazamKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10028/">📼 WWDC22: Create custom catalogs at scale with ShazamKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10051/">📼 WWDC23: Create a great ShazamKit experience</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Sign in with Apple</p>
+        <p class="description">
+          Provide users the ability to sign in to your apps and websites using their Apple ID.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/sign_in_with_apple">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/706/">📼 WWDC19: Introducing Sign In with Apple</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10173/">📼 WWDC20: Get the most out of Sign in with Apple</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10122/">📼 WWDC22: Enhance your Sign in with Apple experience</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10053/">📼 WWDC22: Discover Sign in with Apple at Work & School</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">SiriKit</p>
+        <div class="versions">
+          <p class="version">iOS 10.0+</p>
+          <p class="version">iPadOS 10.0+</p>
+          <p class="version">macOS 12.0+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 14.0+</p>
+          <p class="version">watchOS 3.2+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Empower users to interact with their devices through voice, intelligent suggestions, and personalized workflows.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/sirikit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/siri">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/207/">📼 WWDC19: Introducing SiriKit Media Intents</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10068/">📼 WWDC20: What's new in SiriKit and Shortcuts</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10061/">📼 WWDC20: Expand your SiriKit Media Intents to more platforms</a></p>
+          <p><a href="https://developer.apple.com/videos/play/tech-talks/10854/">📼 Tech talk: Integrate SiriKit Media Intents with HomePod</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">SMS and MMS Message Filtering</p>
+        <p class="description">
+          Create an app extension that identifies and filters unwanted SMS and MMS messages while preserving user privacy.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/sms_and_call_reporting/sms_and_mms_message_filtering">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/110341/">📼 WWDC22: Explore SMS message filters </a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Speech</p>
+        <div class="versions">
+          <p class="version">iOS 10.0+</p>
+          <p class="version">iPadOS 1O.0+</p>
+          <p class="version">macOS 10.15+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Perform speech recognition on live or prerecorded audio, and receive transcriptions, alternative interpretations, and confidence levels of the results.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/speech">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2016/509/">📼 WWDC16: Speech Recognition API</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2019/256/">📼 WWDC19: Advances in Speech Recognition</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">SpriteKit</p>
+        <div class="versions">
+          <p class="version">iOS 7.0+</p>
+          <p class="version">iPadOS 7.0+</p>
+          <p class="version">macOS 10.9+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">tvOS 9.0+</p>
+          <p class="version">watchOS 10.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Add high-performance 2D content with smooth animations to your app, or create a game with a high-level set of 2D game-based tools.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/spritekit">🔗 Developer Document</a></p>
+          <p><a href="">🔗 Human Interface Guideline</a></p>
+          <p><a href="">📼 WWDC: </a></p>
+          <p><a href="">📼 WWDC: </a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Swift Charts</p>
+        <div class="versions">
+          <p class="version">iOS 16.0+</p>
+          <p class="version">iPadOS 16.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 16.0+</p>
+          <p class="version">tvOS 16.0+</p>
+          <p class="version">watchOS 9.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Construct and customize charts on every Apple platform.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/Charts">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/charting-data">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10136/">📼 WWDC22: Hello Swift Charts</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10137/">📼 WWDC22: Swift Charts: Raise the bar</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10037/">📼 WWDC23: Explore pie charts and interactivity in Swift Charts</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">SwiftData</p>
+        <div class="versions">
+          <p class="version">iOS 17.0+</p>
+          <p class="version">iPadOS 17.0+</p>
+          <p class="version">macOS 14.0+</p>
+          <p class="version">Mac Catalyst 17.0+</p>
+          <p class="version">tvOS 17.0+</p>
+          <p class="version">watchOS 10.0+</p>
+        </div>
+        <p class="description">
+          Write your model code declaratively to add managed persistence and automatic iCloud sync.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/SwiftData">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10187/">📼 WWDC23: Meet SwiftData</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10154/">📼 WWDC23: Build an app with SwiftData</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10189/">📼 WWDC23: Migrate to SwiftData</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10196/">📼 WWDC23: Dive deeper into SwiftData</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10195/">📼 WWDC23: Model your schema with SwiftData</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Symbols</p>
+        <div class="versions">
+          <p class="version">iOS 17.0+</p>
+          <p class="version">iPadOS 17.0+</p>
+          <p class="version">macOS 14.0+</p>
+          <p class="version">Mac Catalyst 17.0+</p>
+          <p class="version">tvOS 17.0+</p>
+          <p class="version">watchOS 10.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Apply universal animations to symbol-based images.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/symbols">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/sf-symbols">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10257/">📼 WWDC23: Create animated symbols</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10258/">📼 WWDC23: Animate symbols in your app</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">TV Services</p>
+        <div class="versions">
+          <p class="version">tvOS 9.0+</p>
+        </div>
+        <p class="description">
+          Display content and descriptions, provide channel guides, and support multiple users on Apple TV.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/tvservices">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos">🔗 Human Interface Guideline</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">TVML</p>
+        <p class="description">
+          Use Apple TV Markup Language to create individual pages inside of a client-server app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/TVML">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/tech-talks/402/">📼 Tech talk: Using Web Inspector with tvOS Apps</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">TVMLKit</p>
+        <div class="versions">
+          <p class="version">tvOS 9.0+</p>
+        </div>
+        <p class="description">
+          Create client-server apps by incorporating JavaScript and TVML files in your binary app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/tvmlkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2017/246/">📼 WWDC17: Deep Linking on tvOS</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">VisionKit</p>
+        <div class="versions">
+          <p class="version">iOS 13.0+</p>
+          <p class="version">iPadOS 13.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Identify and extract information in the environment using the device’s camera, or in images that your app displays.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/visionkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10025/">📼 WWDC22: Capture machine-readable codes and text with VisionKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10048/">📼 WWDC23: What’s new in VisionKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10048/">📼 WWDC23: Lift subjects from images in your app</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">Watch Connectivity</p>
+        <div class="versions">
+          <p class="version">iOS 9.0+</p>
+          <p class="version">iPadOS 9.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">watchOS 2.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Implement two-way communication between an iOS app and its paired watchOS app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/watchconnectivity">🔗 Developer Document</a></p>
+          
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">WatchKit</p>
+        <div class="versions">
+          <p class="version">watchOS 2.0+</p>
+        </div>
+        <p class="description">
+          Build watchOS apps that use features the app delegate monitors or controls, such as background tasks and extended runtime sessions.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/watchkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/designing-for-watchos">🔗 Human Interface Guideline</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">WeatherKit</p>
+        <div class="versions">
+          <p class="version">iOS 16.0+</p>
+          <p class="version">iPadOS 16.0+</p>
+          <p class="version">macOS 13.0+</p>
+          <p class="version">Mac Catalyst 16.0+</p>
+          <p class="version">tvOS 16.0+</p>
+          <p class="version">watchOS 9.0+</p>
+        </div>
+        <p class="description">
+          Deliver weather conditions and alerts to your users.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/WeatherKit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10003/">📼 WWDC22: Meet WeatherKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">WebKit</p>
+        <div class="versions">
+          <p class="version">iOS 16.0+</p>
+          <p class="version">iPadOS 16.0+</p>
+          <p class="version">macOS 10.2+</p>
+          <p class="version">Mac Catalyst 13.0+</p>
+          <p class="version">visionOS 1.0+</p>
+        </div>
+        <p class="description">
+          Integrate web content seamlessly into your app, and customize content interactions to meet your app’s needs.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/webkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/web-views">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10048/">📼 WWDC22: https://developer.apple.com/videos/play/wwdc2022/10048/</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">WidgetKit</p>
+        <div class="versions">
+          <p class="version">iOS 14.0+</p>
+          <p class="version">iPadOS 14.0+</p>
+          <p class="version">macOS 11.0+</p>
+          <p class="version">Mac Catalyst 14.0+</p>
+          <p class="version">watchOS 9.0+</p>
+        </div>
+        <p class="description">
+          Extend the reach of your app by creating widgets, watch complications, and Live Activities.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/WidgetKit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/widgets">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2020/10028/">📼 WWDC20: Meet WidgetKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10050/">📼 WWDC22: Complications and widgets: Reloaded</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2022/10051/">📼 WWDC22: Go further with Complications in WidgetKit</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10027/">📼 WWDC23: Bring widgets to new places</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10029/">📼 WWDC23: Build widgets for the Smart Stack on Apple Watch</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">WorkoutKit</p>
+        <div class="versions">
+          <p class="version">iOS 17.0+</p>
+          <p class="version">iPadOS 17.0+</p>
+          <p class="version">watchOS 10.0+</p>
+        </div>
+        <p class="description">
+          Create, preview, and sync workout compositions to the Workout app.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/workoutkit">🔗 Developer Document</a></p>
+          <p><a href="https://developer.apple.com/design/human-interface-guidelines/workouts">🔗 Human Interface Guideline</a></p>
+          <p><a href="https://developer.apple.com/videos/play/wwdc2023/10016/">📼 WWDC23: Build custom workouts with WorkoutKit</a></p>
+        </div>
+      </div>
+      <div class="technology">
+        <p class="title">XcodeKit</p>
+        <div class="versions">
+          <p class="version">macOS 10.2+</p>
+        </div>
+        <p class="description">
+          Create extensions to add commands to the Xcode source editor.
+        </p>
+        <p class="keyword">
+        </p>
+        <div class="links">
+          <p><a href="https://developer.apple.com/documentation/xcodekit">🔗 Developer Document</a></p>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">Copyright 2023. @unnnyong All contents cannot be copied without permission.</p>
+  </body>
+</html>
